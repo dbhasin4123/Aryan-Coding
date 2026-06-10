@@ -20,5 +20,14 @@ int main() {
     // dividing a integer variable with another integer variable
     cout << b / a << endl;
 
+    // adding three variable at a time using integer variable
+    int x=10, y=20 ,z=40;
+    cout << x+y+z << endl;
+
+    // adding same variables using integer variable
+    int n,m;
+    n=m=12;
+    cout << n+m << endl;
+
     return 0;
 }
