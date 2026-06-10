@@ -29,5 +29,9 @@ int main() {
     n=m=12;
     cout << n+m << endl;
 
+    // constant integer variable 
+    const int d = 333;
+    cout << d << endl;
+
     return 0;
 }
