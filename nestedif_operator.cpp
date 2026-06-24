@@ -19,26 +19,36 @@ int main() {
     cin >> my2operator;
     
 
-    if (myOperator == "+") {
+    if (myOperator == "+") 
+    {
         cout << "The sum of x and y is: " << x + y << "\n";
     
-        if (my2operator == "-") {
+        if (my2operator == "-") 
+        {
             cout << "The difference of x and y is: " << x-y << "\n";
         }
-        else {
+        else 
+        {
             cout << "The sum of x and y is: " << x+y << "\n";
         }
     }
-    else if (myOperator == "-") {
+    else if (myOperator == "-") 
+    {
         cout << "The difference of x and y is: " << x-y << "\n";
-
-        if (my2operator == "+") {
+        
+        if (my2operator == "+")
+        {
             cout << "The sum of x and y is: " << x+y << "\n";
         }
-        else {
+        else 
+        {
             cout << "The difference of x and y is: " << x-y << "\n";
+
         }
     }
+
+
+    
     return 0;
 }
     
