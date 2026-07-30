@@ -11,14 +11,14 @@ class Animal {
 
 class cat : public Animal {
   public :
-    void catSound() {
+    void animalSound() {
     cout << "Cat makes a sound Meow-Meow\n";
     }
 };
 
 class dog : public Animal {
   public :
-    void dogSound() {
+    void animalSound() {
     cout << "Dog makes a sound Bow-Bow\n";
     }
 };
